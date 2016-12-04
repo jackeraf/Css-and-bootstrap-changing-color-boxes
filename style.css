@@ -1,0 +1,70 @@
+
+
+.row{
+
+	background-color: lightblue;
+	padding-bottom: 20px;
+	
+}
+.container{
+
+		background-color: lightblue;
+}
+
+
+/*Nombrando a varias clases a la vez, ya que estas son de bootstrap del html */
+
+
+.col-lg-6, .col-md-6, .col-sm-8, .col-xs-12{
+
+	
+}
+
+.content{
+
+	background-color: black;
+	height: 10rem;
+
+}
+
+
+/*Try that one to understand!
+*/
+
+/*.col-sm-6{
+
+	background-color: red;
+	color: green;
+}
+
+*/
+
+
+
+/*How to change color depending on the size. 
+The following 1199px it's because if we open the DOM while resizing the window we'll see on rigth side the sizes*/
+
+
+
+/*@media only screen and (max-width: 1199px) {
+    .content {
+    background-color: red;
+    
+    }
+}*/
+
+@media only screen and (max-width: 1199px) {
+    .content {
+    background-color: red;
+    
+    }
+}
+
+@media only screen and (min-width: 987px) {
+    .row {
+    color: yellow;
+    
+    }
+}
+
+/*min will start from total size to making it smaller and max actual size to becoming its maximum size*/
